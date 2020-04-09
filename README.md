@@ -1,7 +1,7 @@
 # octo-train
 
-![Travis Build Status]()
-![Codecov]()
+[![Build Status](https://travis-ci.org/dankondr/octo-train.svg?branch=master)](https://travis-ci.org/dankondr/octo-train)
+[![codecov](https://codecov.io/gh/dankondr/octo-train/branch/master/graph/badge.svg)](https://codecov.io/gh/dankondr/octo-train)
 
 ![octo-train](art/octo_train_present.gif)
 
@@ -38,7 +38,7 @@ To start your CodeForces journey with octo-train you must specify level of probl
 You can either specify 0 and start from the easiest ones (you can change it in the settings later) or go to codeforces/archive and find appropriate level for you.
 
 
-⚠️ Problems level is the number specified on the right from problem's name. It starts at 500 and goes up to 3000 with step of 100.
+>⚠️ Problems level is the number specified on the right from problem's name. It starts at 500 and goes up to 3000 with step of 100.
 
 ![problems level](art/cf_problem_level.png)
 
@@ -53,7 +53,7 @@ With Project Euler you must specify level of problems you can solve too.
 You can either specify 0 and start from the easiest ones (you can change it in the settings later) or go to projecteuler/archives and find appropriate level for you.
 
 
-⚠️ Problems level is the orange bar on the right from problem's name. Hover to see the number. It starts at 5% and goes up to 100%.
+>⚠️ Problems level is the orange bar on the right from problem's name. Hover to see the number. It starts at 5% and goes up to 100%.
 
 ![problems level](art/pe_problem_level.png)
 
