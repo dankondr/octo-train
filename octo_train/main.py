@@ -1,9 +1,9 @@
 import os
 
-from db import Database
-from codeforces import CodeForces
-from euler import ProjectEuler
-from colored import welcome_message, logo, multisolve
+from octo_train.db import Database
+from octo_train.codeforces import CodeForces
+from octo_train.euler import ProjectEuler
+from octo_train.colored import welcome_message, logo, multisolve
 
 
 menu = [

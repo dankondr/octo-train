@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from random import randint
 
-from source_interface import Problem, ProblemSource
+from octo_train.source_interface import Problem, ProblemSource
 
 BASE_URL = 'https://codeforces.com'
 

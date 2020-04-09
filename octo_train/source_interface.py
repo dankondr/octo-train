@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from db import Database
+from octo_train.db import Database
 
 
 class Problem(ABC):

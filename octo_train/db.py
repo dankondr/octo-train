@@ -1,7 +1,5 @@
-import os
 from datetime import datetime
 from random import randint
-
 from tinydb import TinyDB, where
 
 DATE_FORMAT = '%d.%m.%y'
