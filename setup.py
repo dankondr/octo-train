@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(name='octo_train',
       description='Console application to make you a great programmer.',
-      version='0.1.0',
+      version='0.1.1',
       packages=find_packages(),
       entry_points={
           'console_scripts': [
