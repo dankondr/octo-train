@@ -117,11 +117,5 @@ def main():
             break
 
 
-REMOVE_DB = False
 if __name__ == '__main__':
-    if REMOVE_DB:
-        try:
-            os.remove('db.json')
-        except FileNotFoundError:
-            pass
     main()

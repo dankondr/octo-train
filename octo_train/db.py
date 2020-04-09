@@ -1,13 +1,16 @@
+import os
 from datetime import datetime
 from random import randint
 from tinydb import TinyDB, where
 
 DATE_FORMAT = '%d.%m.%y'
 
+PATH_TO_DB = os.path.expanduser('~/octo_train_data.json')
+
 
 class Database:
     def __init__(self):
-        self.db = TinyDB('db.json')
+        self.db = TinyDB(PATH_TO_DB)
         self.user = None
         self.loaded = False
         if self.db.contains(where('name')):
