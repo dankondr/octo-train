@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/dankondr/octo-train.svg?branch=master)](https://travis-ci.org/dankondr/octo-train)
 [![codecov](https://codecov.io/gh/dankondr/octo-train/branch/master/graph/badge.svg)](https://codecov.io/gh/dankondr/octo-train)
 
-![octo-train](art/octo_train_present.gif)
+![octo-train](https://raw.githubusercontent.com/dankondr/octo-train/master/art/octo_train.gif)
 
 > Simple CLI client for your programming accomplishments.
 
@@ -40,7 +40,7 @@ You can either specify 0 and start from the easiest ones (you can change it in t
 
 >⚠️ Problems level is the number specified on the right from problem's name. It starts at 500 and goes up to 3000 with step of 100.
 
-![problems level](art/cf_problem_level.png)
+![problems level](https://raw.githubusercontent.com/dankondr/octo-train/master/art/cf_problem_level.png)
 
 #### CodeForces daily goal
 
@@ -55,7 +55,7 @@ You can either specify 0 and start from the easiest ones (you can change it in t
 
 >⚠️ Problems level is the orange bar on the right from problem's name. Hover to see the number. It starts at 5% and goes up to 100%.
 
-![problems level](art/pe_problem_level.png)
+![problems level](https://raw.githubusercontent.com/dankondr/octo-train/master/art/pe_problem_level.png)
 
 #### Project Euler daily goal
 
@@ -65,10 +65,10 @@ The minimal number of problems you want to solve every day.
 
 In menu select which kind of problems you want to solve.
 
-![octo-train menu]()
+![octo-train menu](https://raw.githubusercontent.com/dankondr/octo-train/master/art/octo_train_menu.gif)
 
 ### See the stats
 
 Show your stats as a problem-solver.
 
-![octo-train stats]()
+![octo-train stats](https://raw.githubusercontent.com/dankondr/octo-train/master/art/octo_train_stats.gif)
