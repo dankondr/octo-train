@@ -107,7 +107,7 @@ def main():
                 elif s_choose == 3:
                     db.update_user('cf_daily', input('New CF daily goal: '))
                 elif s_choose == 4:
-                    db.update_user('pe_level', input('New CF level: '))
+                    db.update_user('pe_level', input('New PE level: '))
                 elif s_choose == 5:
                     db.update_user('pe_daily', input('New PE daily goal: '))
                 elif s_choose == 6:
