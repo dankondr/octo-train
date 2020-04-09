@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/dankondr/octo-train.svg?branch=master)](https://travis-ci.org/dankondr/octo-train)
 [![codecov](https://codecov.io/gh/dankondr/octo-train/branch/master/graph/badge.svg)](https://codecov.io/gh/dankondr/octo-train)
 
-![octo-train](https://raw.githubusercontent.com/dankondr/octo-train/master/art/octo_train.gif)
+![octo-train](https://raw.githubusercontent.com/dankondr/octo-train/master/art/octo-train.gif)
 
 > Simple CLI client for your programming accomplishments.
 
@@ -65,10 +65,8 @@ The minimal number of problems you want to solve every day.
 
 In menu select which kind of problems you want to solve.
 
-![octo-train menu](https://raw.githubusercontent.com/dankondr/octo-train/master/art/octo_train_menu.gif)
+![octo-train menu](https://raw.githubusercontent.com/dankondr/octo-train/master/art/octo-train-menu.gif)
 
 ### See the stats
 
 Show your stats as a problem-solver.
-
-![octo-train stats](https://raw.githubusercontent.com/dankondr/octo-train/master/art/octo_train_stats.gif)
