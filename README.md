@@ -25,7 +25,7 @@ $ octo-train
 
 ### Creating new user
 
-On first launch application with ask you to provide some info.
+On first launch application will ask you to provide some info.
 
 #### Name
 
