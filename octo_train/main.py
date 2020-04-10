@@ -83,8 +83,13 @@ def main():
         elif choose == 'Stats':
             clear()
             print(logo)
-            print('NOT DONE YET (Press ENTER to continue...)')
-            input()
+            print('---------')
+            print('All time stats:')
+            print('---------')
+            print(f'CodeForces: {len(db.get_solved("cf"))} (solved), {len(db.get_not_solved("cf"))} (not solved)')
+            print(f'ProjectEuler: {len(db.get_solved("pe"))} (solved), {len(db.get_not_solved("pe"))} (not solved)')
+            print('---------')
+            input('Press ENTER to go back...')
         elif choose == 'Settings':
             while True:
                 clear()

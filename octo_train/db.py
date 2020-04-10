@@ -38,6 +38,13 @@ class Database:
             result.add(item['link'])
         return result
 
+    def get_not_solved(self, problem_type):
+        l = self.db.search((where('problem_type') == problem_type) & (where('solved') == False))
+        result = set()
+        for item in l:
+            result.add(item['link'])
+        return result
+
     def get_all(self, problem_type):
         l = self.db.search(where('problem_type') == problem_type)
         result = set()
@@ -45,7 +52,7 @@ class Database:
             result.add(item['link'])
         return result
 
-    def get_not_solved(self, problem_type):
+    def get_not_solved_problem(self, problem_type):
         l = self.db.search((where('problem_type') == problem_type) & (where('solved') == False))
         if not l:
             return None

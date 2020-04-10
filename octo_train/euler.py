@@ -18,7 +18,7 @@ class ProjectEuler(ProblemSource):
     def get_problem(self):
         give_not_solved = randint(1, 100) <= 33
         if give_not_solved:
-            problem = self.db.get_not_solved('pe')
+            problem = self.db.get_not_solved_problem('pe')
             if problem is not None:
                 return PEProblem(problem['title'], problem['difficulty'], problem['link'])
 

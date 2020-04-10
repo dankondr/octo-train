@@ -18,7 +18,7 @@ class CodeForces(ProblemSource):
     def get_problem(self):
         give_not_solved = randint(1, 100) <= 33
         if give_not_solved:
-            problem = self.db.get_not_solved('cf')
+            problem = self.db.get_not_solved_problem('cf')
             if problem is not None:
                 return CFProblem(problem['title'], problem['difficulty'], problem['link'])
 
