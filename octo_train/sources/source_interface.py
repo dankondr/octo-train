@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
-from octo_train.db import Database
+from octo_train.db.tinydbdatabase import TinyDBDatabase
 
 
-class Problem(ABC):
+class IProblem(ABC):
     def __init__(self, title, difficulty, link):
         self.title = title
         self.difficulty = difficulty
@@ -19,8 +19,8 @@ class Problem(ABC):
         }
 
 
-class ProblemSource(ABC):
-    def __init__(self, db: Database):
+class IProblemSource(ABC):
+    def __init__(self, db: TinyDBDatabase):
         self.db = db
 
     def add_problem_to_db(self, task):

@@ -1,16 +1,15 @@
-import os
 from datetime import datetime
 from random import randint
 from tinydb import TinyDB, where
 
-DATE_FORMAT = '%d.%m.%y'
-
-PATH_TO_DB = os.path.expanduser('~/octo_train_data.json')
+from octo_train.db.database_interface import IDatabase
 
 
-class Database:
-    def __init__(self):
-        self.db = TinyDB(PATH_TO_DB)
+class TinyDBDatabase(IDatabase):
+    _DATE_FORMAT = '%d.%m.%y'
+
+    def __init__(self, path_to_db):
+        self.db = TinyDB(path_to_db)
         self.user = None
         self.loaded = False
         if self.db.contains(where('name')):
@@ -61,9 +60,9 @@ class Database:
         self.db.remove(where('link') == problem['link'])
         return problem
 
-    def insert(self, data):
-        data['date'] = self._get_today_date()
-        self.db.insert(data)
+    def insert(self, problem_data):
+        problem_data['date'] = self._get_today_date()
+        self.db.insert(problem_data)
 
     def update_user(self, key, value):
         self.user[key] = value
@@ -78,4 +77,4 @@ class Database:
             return user
 
     def _get_today_date(self):
-        return datetime.now().strftime(DATE_FORMAT)
+        return datetime.now().strftime(self._DATE_FORMAT)
