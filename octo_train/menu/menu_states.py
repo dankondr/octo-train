@@ -102,6 +102,7 @@ class WelcomeState(IMenuState):
                               cf_daily=cf_daily,
                               pe_daily=pe_daily,
                               cf_page=2)
+        self.menu.transition_to(MainMenuState())
 
 
 class MainMenuState(IMenuState):
